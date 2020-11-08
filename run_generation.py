@@ -171,7 +171,6 @@ def main():
         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(MODEL_CLASSES.keys()),
     )
     #add
-    parser.add_argument('--n_prompt', type=int, default=0)
     parser.add_argument('--prompt', action='append')
 
     parser.add_argument("--length", type=int, default=20)
@@ -296,8 +295,10 @@ def main():
             )
 
             # Remove all text after the last '\n'
+
             posiciones = [pos for pos, char in enumerate(total_sequence) if char == '\n']
-            total_sequence = total_sequence[: posiciones[-1]]
+            if(posiciones):
+                total_sequence = total_sequence[: posiciones[-1]]
 
             generated_sequences.append(total_sequence)
 
