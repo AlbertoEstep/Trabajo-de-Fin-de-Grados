@@ -8,7 +8,7 @@ En particular, se llevarán a cabo dos experimentos:
     
 * **Experimento 2** Se aplicará el modelo *BERT* para la tarea de completar oraciones de forma coherente. En este caso, el idioma del modelo y de la tarea será el español, ofreciendo así variedad y permitiendo la comparativa entre la realización de tareas con diferentes idiomas.
 
-## Experimento 1 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlbertoEstep/Trabajo-de-Fin-de-Grados/Experimento1/]
+## Experimento 1 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlbertoEstep/Trabajo-de-Fin-de-Grados/Experimento1/)
 
 El primer experimento realizado consiste en generar un discurso de la reina de Inglaterra, Isabel II. Para su ejecución, por un lado se obtendrá el corpus formado por 301 discursos de la casa real británica. A continuación de realizará una manipulación de dichos datos para que se ajusten al modelo elegido. Además se aplicará la técnica de *fine-tuning* al modelo con dicho corpus. Por último, se generarán varios discursos y se analizarán las características comunes de los textos generados y las específicas de alguno en particular.
 
@@ -20,7 +20,7 @@ A continuación se ejecutará el script *FineTuning.ipynb* para obtener el model
 
 Por último se ejecutará el script *GeneradorDiscursosReina.ipynb* para generar los discursos deseados. De manera análoga al anterior script, se puede modificar la llamada al script interno (*run_generation.py*) para que genera diferentes discursos según los parámetros introducidos. Para más infomación consulte la memoria y la ayuda de los script.
 
-## Experimento 2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlbertoEstep/Trabajo-de-Fin-de-Grados/Experimento2/]
+## Experimento 2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlbertoEstep/Trabajo-de-Fin-de-Grados/Experimento2/)
 
 Se aplicará el modelo *BERT* para la tarea de completar oraciones de forma coherente. En este caso, el idioma del modelo y de la tarea será el español.
 
